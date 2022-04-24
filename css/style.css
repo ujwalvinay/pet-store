@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+}
+body
+{
+    background:#374C8C;
+    height: 100%;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+.container
+{
+    margin: 3rem auto;
+    background: white;
+    width: 80%;
+    border-radius: 20px;
+    background: linear-gradient(130deg, #EAF3FA 30%, white 30%);
+}
+
+.logo-div
+{
+    display: flex;
+}
+#logo-img
+{
+    width: 60%;
+    height: fit-content;
+    margin-right: 2rem;
+}
+
+.menu a,li
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    color: black;
+    font-size: 20px;;
+    font-weight: 500;
+}
+.menu
+{
+    align-self: center;
+}
+.items
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.banner
+{
+    display: flex;
+}
+.banner-pic
+{
+    width: 70%;
+}
+#banner-img
+{
+    width: 95%;
+    
+}
+.text
+{
+    width: 40%;
+    margin-left: 5rem;
+    padding-top: 5rem;
+}
+h1
+{
+    font-size: 50px;
+    padding: 0;
+    line-height: 2.5rem;
+}
+p
+{
+    width: 90%;
+    padding: 2rem 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+
+#explore-button
+{
+    font-size: 20px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 20px;
+    color: white;
+    background: #374C8C;
+    border: none;
+}
